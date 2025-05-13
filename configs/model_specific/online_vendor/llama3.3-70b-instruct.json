@@ -1,5 +1,5 @@
 {
-  "model_id": "llama3-70b-instruct",
+  "model_id": "llama-3.3-70b-instruct",
   "deployment_type": "online",
   "provider": "aigcbest",
   "generation_params": {
