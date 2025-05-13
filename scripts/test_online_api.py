@@ -12,7 +12,7 @@ from utils.results_saver import save_output_and_metrics
 # Load environment variables from .env file
 load_dotenv()
 
-def load_prompts(system_path, user_path, user_input):
+def load_prompts(system_path, user_path):
     with open(system_path, 'r') as f:
         system_template = f.read()
     with open(user_path, 'r') as f:
