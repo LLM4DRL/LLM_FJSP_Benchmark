@@ -1,5 +1,8 @@
-# LLM Performance Testing
-This project benchmarks the performance of various Large Language Models (LLMs), both via online APIs and local deployments using vLLM and TensorRT-LLM.
+# LLM FJSP Benchmark
+
+This project benchmarks the performance of various Large Language Models (LLMs) on Flexible Job Shop Scheduling Problems (FJSP), both via online APIs and local deployments using vLLM and TensorRT-LLM.
+
+GitHub Repository: [https://github.com/LLM4DRL/LLM_FJSP_Benchmark](https://github.com/LLM4DRL/LLM_FJSP_Benchmark)
 
 ## Setup
 1. Install dependencies:
@@ -55,4 +58,10 @@ This project benchmarks the performance of various Large Language Models (LLMs),
   - llama3-70b-instruct
 
 ## Project Structure
-See `project.md` for the full folder layout and descriptions. 
+See `project.md` for the full folder layout and descriptions.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+MIT 
