@@ -1,0 +1,10 @@
+{
+  "siliconflow": {
+    "base_url": "https://api.siliconflow.cn/v1",
+    "api_key_env_var": "SILICONFLOW_API_KEY"
+  },
+  "aigcbest": {
+    "base_url": "https://api2.aigcbest.top/v1",
+    "api_key_env_var": "AIGCBEST_API_KEY"
+  }
+} 

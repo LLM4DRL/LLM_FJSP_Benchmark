@@ -1,0 +1,101 @@
+#### **Background**
+An automotive component manufacturing plant needs to process a batch of critical parts. The plant has 10 machines with different capabilities, which are used to complete 10 types of parts. Each part requires 10 operations, and each operation can be performed on multiple machines of the same type, but with different processing times. Due to the limitations of the machines' capabilities, some operations may not be available on certain machines.
+
+#### **Task Description**
+The plant needs to assign appropriate machines for each operation of the parts and determine the processing order of operations on each machine to optimize production efficiency. The specific goal is to minimize the maximum completion time (makespan) of all parts while ensuring the following constraints are met:
+1. Each operation can only be processed on one machine.
+2. A machine cannot process multiple operations simultaneously.
+3. The operations of each part must be completed in a predefined sequence.
+4. If an operation cannot be processed on a machine, the processing time for that machine is considered infinite (unavailable).
+
+#### **Parts and Machines Information**
+The plant has the following 10 types of parts (Jobs):
+1. Part 1: Engine Block
+2. Part 2: Transmission Gear
+3. Part 3: Wheel Hub
+4. Part 4: Brake Disc
+5. Part 5: Steering Knuckle
+6. Part 6: Engine Block
+7. Part 7: Transmission Gear
+8. Part 8: Wheel Hub
+9. Part 9: Brake Disc
+10. Part 10: Steering Knuckle
+
+The plant has the following 10 machines:
+1. Machine 1: CNC Lathe 1
+2. Machine 2: CNC Lathe 2
+3. Machine 3: Milling Machine 1
+4. Machine 4: Milling Machine 2
+5. Machine 5: Drilling Machine 1
+6. Machine 6: Drilling Machine 2
+7. Machine 7: Laser Cutting Machine 1
+8. Machine 8: Laser Cutting Machine 2
+9. Machine 9: Press Machine 1
+10. Machine 10: Press Machine 2
+
+#### **Operations Description**
+Each part requires 10 operations, and each operation can be performed on multiple machines of the same type. The specific processing times and available machines are as follows:
+
+| Part | Operation | Available Machines and Processing Times |
+|------|-----------|----------------------------------------|
+| Engine Block (Job 1) | Operation 1 | CNC Lathe 1: 12 minutes, CNC Lathe 2: 8 minutes |
+| Engine Block (Job 1) | Operation 2 | Milling Machine 1: 7 minutes, Milling Machine 2: 9 minutes |
+| Engine Block (Job 1) | Operation 3 | Drilling Machine 1: 5 minutes, Drilling Machine 2: 7 minutes |
+| Engine Block (Job 1) | Operation 4 | Laser Cutting Machine 1: 15 minutes, Laser Cutting Machine 2: 10 minutes |
+| Engine Block (Job 1) | Operation 5 | Press Machine 1: 10 minutes, Press Machine 2: 12 minutes |
+| Engine Block (Job 1) | Operation 6 | CNC Lathe 1: 10 minutes, CNC Lathe 2: 6 minutes |
+| Engine Block (Job 1) | Operation 7 | Milling Machine 1: 8 minutes, Milling Machine 2: 7 minutes |
+| Engine Block (Job 1) | Operation 8 | Drilling Machine 1: 9 minutes, Drilling Machine 2: 11 minutes |
+| Engine Block (Job 1) | Operation 9 | Laser Cutting Machine 1: 13 minutes, Laser Cutting Machine 2: 14 minutes |
+| Engine Block (Job 1) | Operation 10 | Press Machine 1: 6 minutes, Press Machine 2: 8 minutes |
+
+| Transmission Gear (Job 2) | Operation 1 | CNC Lathe 1: 10 minutes, CNC Lathe 2: 7 minutes |
+| Transmission Gear (Job 2) | Operation 2 | Milling Machine 1: 6 minutes, Milling Machine 2: 8 minutes |
+| Transmission Gear (Job 2) | Operation 3 | Drilling Machine 1: 4 minutes, Drilling Machine 2: 6 minutes |
+| Transmission Gear (Job 2) | Operation 4 | Laser Cutting Machine 1: 14 minutes, Laser Cutting Machine 2: 12 minutes |
+| Transmission Gear (Job 2) | Operation 5 | Press Machine 1: 9 minutes, Press Machine 2: 11 minutes |
+| Transmission Gear (Job 2) | Operation 6 | CNC Lathe 1: 8 minutes, CNC Lathe 2: 5 minutes |
+| Transmission Gear (Job 2) | Operation 7 | Milling Machine 1: 7 minutes, Milling Machine 2: 6 minutes |
+| Transmission Gear (Job 2) | Operation 8 | Drilling Machine 1: 8 minutes, Drilling Machine 2: 10 minutes |
+| Transmission Gear (Job 2) | Operation 9 | Laser Cutting Machine 1: 12 minutes, Laser Cutting Machine 2: 13 minutes |
+| Transmission Gear (Job 2) | Operation 10 | Press Machine 1: 5 minutes, Press Machine 2: 7 minutes |
+
+| Wheel Hub (Job 3) | Operation 1 | CNC Lathe 1: 11 minutes, CNC Lathe 2: 9 minutes |
+| Wheel Hub (Job 3) | Operation 2 | Milling Machine 1: 8 minutes, Milling Machine 2: 7 minutes |
+| Wheel Hub (Job 3) | Operation 3 | Drilling Machine 1: 5 minutes, Drilling Machine 2: 6 minutes |
+| Wheel Hub (Job 3) | Operation 4 | Laser Cutting Machine 1: 13 minutes, Laser Cutting Machine 2: 11 minutes |
+| Wheel Hub (Job 3) | Operation 5 | Press Machine 1: 10 minutes, Press Machine 2: 12 minutes |
+| Wheel Hub (Job 3) | Operation 6 | CNC Lathe 1: 9 minutes, CNC Lathe 2: 7 minutes |
+| Wheel Hub (Job 3) | Operation 7 | Milling Machine 1: 9 minutes, Milling Machine 2: 8 minutes |
+| Wheel Hub (Job 3) | Operation 8 | Drilling Machine 1: 7 minutes, Drilling Machine 2: 9 minutes |
+| Wheel Hub (Job 3) | Operation 9 | Laser Cutting Machine 1: 14 minutes, Laser Cutting Machine 2: 15 minutes |
+| Wheel Hub (Job 3) | Operation 10 | Press Machine 1: 6 minutes, Press Machine 2: 8 minutes |
+
+| Brake Disc (Job 4) | Operation 1 | CNC Lathe 1: 12 minutes, CNC Lathe 2: 8 minutes |
+| Brake Disc (Job 4) | Operation 2 | Milling Machine 1: 7 minutes, Milling Machine 2: 9 minutes |
+| Brake Disc (Job 4) | Operation 3 | Drilling Machine 1: 5 minutes, Drilling Machine 2: 7 minutes |
+| Brake Disc (Job 4) | Operation 4 | Laser Cutting Machine 1: 15 minutes, Laser Cutting Machine 2: 10 minutes |
+| Brake Disc (Job 4) | Operation 5 | Press Machine 1: 10 minutes, Press Machine 2: 12 minutes |
+| Brake Disc (Job 4) | Operation 6 | CNC Lathe 1: 10 minutes, CNC Lathe 2: 6 minutes |
+| Brake Disc (Job 4) | Operation 7 | Milling Machine 1: 8 minutes, Milling Machine 2: 7 minutes |
+| Brake Disc (Job 4) | Operation 8 | Drilling Machine 1: 9 minutes, Drilling Machine 2: 11 minutes |
+| Brake Disc (Job 4) | Operation 9 | Laser Cutting Machine 1: 13 minutes, Laser Cutting Machine 2: 14 minutes |
+| Brake Disc (Job 4) | Operation 10 | Press Machine 1: 6 minutes, Press Machine 2: 8 minutes |
+
+| Steering Knuckle (Job 5) | Operation 1 | CNC Lathe 1: 10 minutes, CNC Lathe 2: 7 minutes |
+| Steering Knuckle (Job 5) | Operation 2 | Milling Machine 1: 6 minutes, Milling Machine 2: 8 minutes |
+| Steering Knuckle (Job 5) | Operation 3 | Drilling Machine 1: 4 minutes, Drilling Machine 2: 6 minutes |
+| Steering Knuckle (Job 5) | Operation 4 | Laser Cutting Machine 1: 14 minutes, Laser Cutting Machine 2: 12 minutes |
+| Steering Knuckle (Job 5) | Operation 5 | Press Machine 1: 9 minutes, Press Machine 2: 11 minutes |
+| Steering Knuckle (Job 5) | Operation 6 | CNC Lathe 1: 8 minutes, CNC Lathe 2: 5 minutes |
+| Steering Knuckle (Job 5) | Operation 7 | Milling Machine 1: 7 minutes, Milling Machine 2: 6 minutes |
+| Steering Knuckle (Job 5) | Operation 8 | Drilling Machine 1: 8 minutes, Drilling Machine 2: 10 minutes |
+| Steering Knuckle (Job 5) | Operation 9 | Laser Cutting Machine 1: 12 minutes, Laser Cutting Machine 2: 13 minutes |
+| Steering Knuckle (Job 5) | Operation 10 | Press Machine 1: 5 minutes, Press Machine 2: 7 minutes |
+
+| Engine Block (Job 6) | Operation 1 | CNC Lathe 1: 12 minutes, CNC Lathe 2: 8 minutes |
+| Engine Block (Job 6) | Operation 2 | Milling Machine 1: 7 minutes, Milling Machine 2: 9 minutes |
+| Engine Block (Job 6) | Operation 3 | Drilling Machine 1: 5 minutes, Drilling Machine 2: 7 minutes |
+| Engine Block (Job 6) | Operation 4 | Laser Cutting Machine 1: 15 minutes, Laser Cutting Machine 2: 10 minutes |
+|Engine Block (Job 6) | Operation 5 | Press Machine 1: 10 minutes, Press Machine 2: 12 minutes|
+|...| 

@@ -1,0 +1,186 @@
+
+
+{
+  "i": [
+    {
+      "id": 1,
+      "r": [
+        {"id": 1, "n": "CNC Lathe 1", "w": null, "s": null},
+        {"id": 2, "n": "CNC Lathe 2", "w": null, "s": null},
+        {"id": 3, "n": "Milling Machine 1", "w": null, "s": null},
+        {"id": 4, "n": "Milling Machine 2", "w": null, "s": null},
+        {"id": 5, "n": "Drilling Machine 1", "w": null, "s": null},
+        {"id": 6, "n": "Drilling Machine 2", "w": null, "s": null},
+        {"id": 7, "n": "Laser Cutting Machine 1", "w": null, "s": null},
+        {"id": 8, "n": "Laser Cutting Machine 2", "w": null, "s": null},
+        {"id": 9, "n": "Press Machine 1", "w": null, "s": null},
+        {"id": 10, "n": "Press Machine 2", "w": null, "s": null}
+      ],
+      "job": [
+        {
+          "id": 1,
+          "n": "Engine Block",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "1,Operation 2,1,1:7|2:9",
+            "1,Operation 3,2,1:5|2:7",
+            "1,Operation 4,3,1:15|2:10",
+            "1,Operation 5,4,1:10|2:12",
+            "1,Operation 6,5,1:10|2:6",
+            "1,Operation 7,6,1:8|2:7",
+            "1,Operation 8,7,1:9|2:11",
+            "1,Operation 9,8,1:13|2:14",
+            "1,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 2,
+          "n": "Transmission Gear",
+          "o": [
+            "2,Operation 1,[],1:10|2:7",
+            "2,Operation 2,1,1:6|2:8",
+            "2,Operation 3,2,1:4|2:6",
+            "2,Operation 4,3,1:14|2:12",
+            "2,Operation 5,4,1:9|2:11",
+            "2,Operation 6,5,1:8|2:5",
+            "2,Operation 7,6,1:7|2:6",
+            "2,Operation 8,7,1:8|2:10",
+            "2,Operation 9,8,1:12|2:13",
+            "2,Operation 10,9,1:5|2:7"
+          ]
+        },
+        {
+          "id": 3,
+          "n": "Wheel Hub",
+          "o": [
+            "3,Operation 1,[],1:11|2:9",
+            "3,Operation 2,1,1:8|2:7",
+            "3,Operation 3,2,1:5|2:6",
+            "3,Operation 4,3,1:13|2:11",
+            "3,Operation 5,4,1:10|2:12",
+            "3,Operation 6,5,1:9|2:7",
+            "3,Operation 7,6,1:9|2:8",
+            "3,Operation 8,7,1:7|2:9",
+            "3,Operation 9,8,1:14|2:15",
+            "3,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 4,
+          "n": "Brake Disc",
+          "o": [
+            "4,Operation 1,[],1:12|2:8",
+            "4,Operation 2,1,1:7|2:9",
+            "4,Operation 3,2,1:5|2:7",
+            "4,Operation 4,3,1:15|2:10",
+            "4,Operation 5,4,1:10|2:12",
+            "4,Operation 6,5,1:10|2:6",
+            "4,Operation 7,6,1:8|2:7",
+            "4,Operation 8,7,1:9|2:11",
+            "4,Operation 9,8,1:13|2:14",
+            "4,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 5,
+          "n": "Steering Knuckle",
+          "o": [
+            "5,Operation 1,[],1:10|2:7",
+            "5,Operation 2,1,1:6|2:8",
+            "5,Operation 3,2,1:4|2:6",
+            "5,Operation 4,3,1:14|2:12",
+            "5,Operation 5,4,1:9|2:11",
+            "5,Operation 6,5,1:8|2:5",
+            "5,Operation 7,6,1:7|2:6",
+            "5,Operation 8,7,1:8|2:10",
+            "5,Operation 9,8,1:12|2:13",
+            "5,Operation 10,9,1:5|2:7"
+          ]
+        },
+        {
+          "id": 6,
+          "n": "Engine Block",
+          "o": [
+            "6,Operation 1,[],1:12|2:8",
+            "6,Operation 2,1,1:7|2:9",
+            "6,Operation 3,2,1:5|2:7",
+            "6,Operation 4,3,1:15|2:10",
+            "6,Operation 5,4,1:10|2:12",
+            "6,Operation 6,5,1:10|2:6",
+            "6,Operation 7,6,1:8|2:7",
+            "6,Operation 8,7,1:9|2:11",
+            "6,Operation 9,8,1:13|2:14",
+            "6,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 7,
+          "n": "Transmission Gear",
+          "o": [
+            "7,Operation 1,[],1:10|2:7",
+            "7,Operation 2,1,1:6|2:8",
+            "7,Operation 3,2,1:4|2:6",
+            "7,Operation 4,3,1:14|2:12",
+            "7,Operation 5,4,1:9|2:11",
+            "7,Operation 6,5,1:8|2:5",
+            "7,Operation 7,6,1:7|2:6",
+            "7,Operation 8,7,1:8|2:10",
+            "7,Operation 9,8,1:12|2:13",
+            "7,Operation 10,9,1:5|2:7"
+          ]
+        },
+        {
+          "id": 8,
+          "n": "Wheel Hub",
+          "o": [
+            "8,Operation 1,[],1:11|2:9",
+            "8,Operation 2,1,1:8|2:7",
+            "8,Operation 3,2,1:5|2:6",
+            "8,Operation 4,3,1:13|2:11",
+            "8,Operation 5,4,1:10|2:12",
+            "8,Operation 6,5,1:9|2:7",
+            "8,Operation 7,6,1:9|2:8",
+            "8,Operation 8,7,1:7|2:9",
+            "8,Operation 9,8,1:14|2:15",
+            "8,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 9,
+          "n": "Brake Disc",
+          "o": [
+            "9,Operation 1,[],1:12|2:8",
+            "9,Operation 2,1,1:7|2:9",
+            "9,Operation 3,2,1:5|2:7",
+            "9,Operation 4,3,1:15|2:10",
+            "9,Operation 5,4,1:10|2:12",
+            "9,Operation 6,5,1:10|2:6",
+            "9,Operation 7,6,1:8|2:7",
+            "9,Operation 8,7,1:9|2:11",
+            "9,Operation 9,8,1:13|2:14",
+            "9,Operation 10,9,1:6|2:8"
+          ]
+        },
+        {
+          "id": 10,
+          "n": "Steering Knuckle",
+          "o": [
+            "10,Operation 1,[],1:10|2:7",
+            "10,Operation 2,1,1:6|2:8",
+            "10,Operation 3,2,1:4|2:6",
+            "10,Operation 4,3,1:14|2:12",
+            "10,Operation 5,4,1:9|2:11",
+            "10,Operation 6,5,1:8|2:5",
+            "10,Operation 7,6,1:7|2:6",
+            "10,Operation 8,7,1:8|2:10",
+            "10,Operation 9,8,1:12|2:13",
+            "10,Operation 10,9,1:5|2:7"
+          ]
+        }
+      ],
+      "o": "minimize_makespan",
+      "t": "minute",
+      "c": []
+    }
+  ]
+}

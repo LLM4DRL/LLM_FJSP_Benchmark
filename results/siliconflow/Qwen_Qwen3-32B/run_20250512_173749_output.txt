@@ -1,0 +1,186 @@
+
+
+{
+  "i": [
+    {
+      "id": 1,
+      "r": [
+        {"id": 1, "n": "CNC Lathe 1", "w": null, "s": null},
+        {"id": 2, "n": "CNC Lathe 2", "w": null, "s": null},
+        {"id": 3, "n": "Milling Machine 1", "w": null, "s": null},
+        {"id": 4, "n": "Milling Machine 2", "w": null, "s": null},
+        {"id": 5, "n": "Drilling Machine 1", "w": null, "s": null},
+        {"id": 6, "n": "Drilling Machine 2", "w": null, "s": null},
+        {"id": 7, "n": "Laser Cutting Machine 1", "w": null, "s": null},
+        {"id": 8, "n": "Laser Cutting Machine 2", "w": null, "s": null},
+        {"id": 9, "n": "Press Machine 1", "w": null, "s": null},
+        {"id": 10, "n": "Press Machine 2", "w": null, "s": null}
+      ],
+      "job": [
+        {
+          "id": 1,
+          "n": "Engine Block",
+          "o": [
+            "1,Engine Block Operation 1,[],1:12|2:8",
+            "2,Engine Block Operation 2,[1],3:7|4:9",
+            "3,Engine Block Operation 3,[2],5:5|6:7",
+            "4,Engine Block Operation 4,[3],7:15|8:10",
+            "5,Engine Block Operation 5,[4],9:10|10:12",
+            "6,Engine Block Operation 6,[5],1:10|2:6",
+            "7,Engine Block Operation 7,[6],3:8|4:7",
+            "8,Engine Block Operation 8,[7],5:9|6:11",
+            "9,Engine Block Operation 9,[8],7:13|8:14",
+            "10,Engine Block Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 2,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Transmission Gear Operation 1,[],1:10|2:7",
+            "2,Transmission Gear Operation 2,[1],3:6|4:8",
+            "3,Transmission Gear Operation 3,[2],5:4|6:6",
+            "4,Transmission Gear Operation 4,[3],7:14|8:12",
+            "5,Transmission Gear Operation 5,[4],9:9|10:11",
+            "6,Transmission Gear Operation 6,[5],1:8|2:5",
+            "7,Transmission Gear Operation 7,[6],3:7|4:6",
+            "8,Transmission Gear Operation 8,[7],5:8|6:10",
+            "9,Transmission Gear Operation 9,[8],7:12|8:13",
+            "10,Transmission Gear Operation 10,[9],9:5|10:7"
+          ]
+        },
+        {
+          "id": 3,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Wheel Hub Operation 1,[],1:11|2:9",
+            "2,Wheel Hub Operation 2,[1],3:8|4:7",
+            "3,Wheel Hub Operation 3,[2],5:5|6:6",
+            "4,Wheel Hub Operation 4,[3],7:13|8:11",
+            "5,Wheel Hub Operation 5,[4],9:10|10:12",
+            "6,Wheel Hub Operation 6,[5],1:9|2:7",
+            "7,Wheel Hub Operation 7,[6],3:9|4:8",
+            "8,Wheel Hub Operation 8,[7],5:7|6:9",
+            "9,Wheel Hub Operation 9,[8],7:14|8:15",
+            "10,Wheel Hub Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 4,
+          "n": "Brake Disc",
+          "o": [
+            "1,Brake Disc Operation 1,[],1:12|2:8",
+            "2,Brake Disc Operation 2,[1],3:7|4:9",
+            "3,Brake Disc Operation 3,[2],5:5|6:7",
+            "4,Brake Disc Operation 4,[3],7:15|8:10",
+            "5,Brake Disc Operation 5,[4],9:10|10:12",
+            "6,Brake Disc Operation 6,[5],1:10|2:6",
+            "7,Brake Disc Operation 7,[6],3:8|4:7",
+            "8,Brake Disc Operation 8,[7],5:9|6:11",
+            "9,Brake Disc Operation 9,[8],7:13|8:14",
+            "10,Brake Disc Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 5,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Steering Knuckle Operation 1,[],1:10|2:7",
+            "2,Steering Knuckle Operation 2,[1],3:6|4:8",
+            "3,Steering Knuckle Operation 3,[2],5:4|6:6",
+            "4,Steering Knuckle Operation 4,[3],7:14|8:12",
+            "5,Steering Knuckle Operation 5,[4],9:9|10:11",
+            "6,Steering Knuckle Operation 6,[5],1:8|2:5",
+            "7,Steering Knuckle Operation 7,[6],3:7|4:6",
+            "8,Steering Knuckle Operation 8,[7],5:8|6:10",
+            "9,Steering Knuckle Operation 9,[8],7:12|8:13",
+            "10,Steering Knuckle Operation 10,[9],9:5|10:7"
+          ]
+        },
+        {
+          "id": 6,
+          "n": "Engine Block",
+          "o": [
+            "1,Engine Block Operation 1,[],1:12|2:8",
+            "2,Engine Block Operation 2,[1],3:7|4:9",
+            "3,Engine Block Operation 3,[2],5:5|6:7",
+            "4,Engine Block Operation 4,[3],7:15|8:10",
+            "5,Engine Block Operation 5,[4],9:10|10:12",
+            "6,Engine Block Operation 6,[5],1:10|2:6",
+            "7,Engine Block Operation 7,[6],3:8|4:7",
+            "8,Engine Block Operation 8,[7],5:9|6:11",
+            "9,Engine Block Operation 9,[8],7:13|8:14",
+            "10,Engine Block Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 7,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Transmission Gear Operation 1,[],1:10|2:7",
+            "2,Transmission Gear Operation 2,[1],3:6|4:8",
+            "3,Transmission Gear Operation 3,[2],5:4|6:6",
+            "4,Transmission Gear Operation 4,[3],7:14|8:12",
+            "5,Transmission Gear Operation 5,[4],9:9|10:11",
+            "6,Transmission Gear Operation 6,[5],1:8|2:5",
+            "7,Transmission Gear Operation 7,[6],3:7|4:6",
+            "8,Transmission Gear Operation 8,[7],5:8|6:10",
+            "9,Transmission Gear Operation 9,[8],7:12|8:13",
+            "10,Transmission Gear Operation 10,[9],9:5|10:7"
+          ]
+        },
+        {
+          "id": 8,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Wheel Hub Operation 1,[],1:11|2:9",
+            "2,Wheel Hub Operation 2,[1],3:8|4:7",
+            "3,Wheel Hub Operation 3,[2],5:5|6:6",
+            "4,Wheel Hub Operation 4,[3],7:13|8:11",
+            "5,Wheel Hub Operation 5,[4],9:10|10:12",
+            "6,Wheel Hub Operation 6,[5],1:9|2:7",
+            "7,Wheel Hub Operation 7,[6],3:9|4:8",
+            "8,Wheel Hub Operation 8,[7],5:7|6:9",
+            "9,Wheel Hub Operation 9,[8],7:14|8:15",
+            "10,Wheel Hub Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 9,
+          "n": "Brake Disc",
+          "o": [
+            "1,Brake Disc Operation 1,[],1:12|2:8",
+            "2,Brake Disc Operation 2,[1],3:7|4:9",
+            "3,Brake Disc Operation 3,[2],5:5|6:7",
+            "4,Brake Disc Operation 4,[3],7:15|8:10",
+            "5,Brake Disc Operation 5,[4],9:10|10:12",
+            "6,Brake Disc Operation 6,[5],1:10|2:6",
+            "7,Brake Disc Operation 7,[6],3:8|4:7",
+            "8,Brake Disc Operation 8,[7],5:9|6:11",
+            "9,Brake Disc Operation 9,[8],7:13|8:14",
+            "10,Brake Disc Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 10,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Steering Knuckle Operation 1,[],1:10|2:7",
+            "2,Steering Knuckle Operation 2,[1],3:6|4:8",
+            "3,Steering Knuckle Operation 3,[2],5:4|6:6",
+            "4,Steering Knuckle Operation 4,[3],7:14|8:12",
+            "5,Steering Knuckle Operation 5,[4],9:9|10:11",
+            "6,Steering Knuckle Operation 6,[5],1:8|2:5",
+            "7,Steering Knuckle Operation 7,[6],3:7|4:6",
+            "8,Steering Knuckle Operation 8,[7],5:8|6:10",
+            "9,Steering Knuckle Operation 9,[8],7:12|8:13",
+            "10,Steering Knuckle Operation 10,[9],9:5|10:7"
+          ]
+        }
+      ],
+      "o": "minimize_makespan",
+      "t": "minute",
+      "c": []
+    }
+  ]
+}

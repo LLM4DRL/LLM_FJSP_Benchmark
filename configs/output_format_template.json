@@ -1,0 +1,9 @@
+{
+  "response": "",
+  "metrics": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_time_sec": 0.0,
+    "tokens_per_sec": 0.0
+  }
+} 

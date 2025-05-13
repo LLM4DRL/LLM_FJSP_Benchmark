@@ -1,0 +1,193 @@
+
+
+{
+  "i": [
+    {
+      "id": 1,
+      "r": [
+        {"id": 1, "n": "CNC Lathe 1", "w": null, "s": null},
+        {"id": 2, "n": "CNC Lathe 2", "w": null, "s": null},
+        {"id": 3, "n": "Milling Machine 1", "w": null, "s": null},
+        {"id": 4, "n": "Milling Machine 2", "w": null, "s": null},
+        {"id": 5, "n": "Drilling Machine 1", "w": null, "s": null},
+        {"id": 6, "n": "Drilling Machine 2", "w": null, "s": null},
+        {"id": 7, "n": "Laser Cutting Machine 1", "w": null, "s": null},
+        {"id": 8, "n": "Laser Cutting Machine 2", "w": null, "s": null},
+        {"id": 9, "n": "Press Machine 1", "w": null, "s": null},
+        {"id": 10, "n": "Press Machine 2", "w": null, "s": null}
+      ],
+      "job": [
+        // Job 1: Engine Block
+        {
+          "id": 1,
+          "n": "Engine Block",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "2,Operation 2,[1],3:7|4:9",
+            "3,Operation 3,[2],5:5|6:7",
+            "4,Operation 4,[3],7:15|8:10",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:10|2:6",
+            "7,Operation 7,[6],3:8|4:7",
+            "8,Operation 8,[7],5:9|6:11",
+            "9,Operation 9,[8],7:13|8:14",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        // Job 2: Transmission Gear
+        {
+          "id": 2,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "2,Operation 2,[1],3:6|4:8",
+            "3,Operation 3,[2],5:4|6:6",
+            "4,Operation 4,[3],7:14|8:12",
+            "5,Operation 5,[4],9:9|10:11",
+            "6,Operation 6,[5],1:8|2:5",
+            "7,Operation 7,[6],3:7|4:6",
+            "8,Operation 8,[7],5:8|6:10",
+            "9,Operation 9,[8],7:12|8:13",
+            "10,Operation 10,[9],9:5|10:7"
+          ]
+        },
+        // Job 3: Wheel Hub
+        {
+          "id": 3,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Operation 1,[],1:11|2:9",
+            "2,Operation 2,[1],3:8|4:7",
+            "3,Operation 3,[2],5:5|6:6",
+            "4,Operation 4,[3],7:13|8:11",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:9|2:7",
+            "7,Operation 7,[6],3:9|4:8",
+            "8,Operation 8,[7],5:7|6:9",
+            "9,Operation 9,[8],7:14|8:15",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        // Job 4: Brake Disc
+        {
+          "id": 4,
+          "n": "Brake Disc",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "2,Operation 2,[1],3:7|4:9",
+            "3,Operation 3,[2],5:5|6:7",
+            "4,Operation 4,[3],7:15|8:10",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:10|2:6",
+            "7,Operation 7,[6],3:8|4:7",
+            "8,Operation 8,[7],5:9|6:11",
+            "9,Operation 9,[8],7:13|8:14",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        // Job 5: Steering Knuckle
+        {
+          "id": 5,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "2,Operation 2,[1],3:6|4:8",
+            "3,Operation 3,[2],5:4|6:6",
+            "4,Operation 4,[3],7:14|8:12",
+            "5,Operation 5,[4],9:9|10:11",
+            "6,Operation 6,[5],1:8|2:5",
+            "7,Operation 7,[6],3:7|4:6",
+            "8,Operation 8,[7],5:8|6:10",
+            "9,Operation 9,[8],7:12|8:13",
+            "10,Operation 10,[9],9:5|10:7"
+          ]
+        },
+        // Job 6: Engine Block (partial data continued with pattern)
+        {
+          "id": 6,
+          "n": "Engine Block",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "2,Operation 2,[1],3:7|4:9",
+            "3,Operation 3,[2],5:5|6:7",
+            "4,Operation 4,[3],7:15|8:10",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:10|2:6",
+            "7,Operation 7,[6],3:8|4:7",
+            "8,Operation 8,[7],5:9|6:11",
+            "9,Operation 9,[8],7:13|8:14",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        // Jobs 7-10 follow same pattern as Jobs 2-5 respectively
+        {
+          "id": 7,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "2,Operation 2,[1],3:6|4:8",
+            "3,Operation 3,[2],5:4|6:6",
+            "4,Operation 4,[3],7:14|8:12",
+            "5,Operation 5,[4],9:9|10:11",
+            "6,Operation 6,[5],1:8|2:5",
+            "7,Operation 7,[6],3:7|4:6",
+            "8,Operation 8,[7],5:8|6:10",
+            "9,Operation 9,[8],7:12|8:13",
+            "10,Operation 10,[9],9:5|10:7"
+          ]
+        },
+        {
+          "id": 8,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Operation 1,[],1:11|2:9",
+            "2,Operation 2,[1],3:8|4:7",
+            "3,Operation 3,[2],5:5|6:6",
+            "4,Operation 4,[3],7:13|8:11",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:9|2:7",
+            "7,Operation 7,[6],3:9|4:8",
+            "8,Operation 8,[7],5:7|6:9",
+            "9,Operation 9,[8],7:14|8:15",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 9,
+          "n": "Brake Disc",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "2,Operation 2,[1],3:7|4:9",
+            "3,Operation 3,[2],5:5|6:7",
+            "4,Operation 4,[3],7:15|8:10",
+            "5,Operation 5,[4],9:10|10:12",
+            "6,Operation 6,[5],1:10|2:6",
+            "7,Operation 7,[6],3:8|4:7",
+            "8,Operation 8,[7],5:9|6:11",
+            "9,Operation 9,[8],7:13|8:14",
+            "10,Operation 10,[9],9:6|10:8"
+          ]
+        },
+        {
+          "id": 10,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "2,Operation 2,[1],3:6|4:8",
+            "3,Operation 3,[2],5:4|6:6",
+            "4,Operation 4,[3],7:14|8:12",
+            "5,Operation 5,[4],9:9|10:11",
+            "6,Operation 6,[5],1:8|2:5",
+            "7,Operation 7,[6],3:7|4:6",
+            "8,Operation 8,[7],5:8|6:10",
+            "9,Operation 9,[8],7:12|8:13",
+            "10,Operation 10,[9],9:5|10:7"
+          ]
+        }
+      ],
+      "o": "minimize_makespan",
+      "t": "minute",
+      "c": []
+    }
+  ]
+}

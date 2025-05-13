@@ -1,0 +1,6 @@
+openai
+vllm
+pandas
+pyyaml
+python-dotenv
+# tensorrt_llm (optional, if using TensorRT-LLM) 

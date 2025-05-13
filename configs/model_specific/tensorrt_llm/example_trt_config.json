@@ -1,0 +1,9 @@
+{
+  "model_id": "qwen1.5-7b-chat",
+  "deployment_type": "tensorrt_llm",
+  "engine_path": "/path/to/trt/engine.trt",
+  "generation_params": {
+    "max_tokens": 512,
+    "temperature": 0.7
+  }
+} 

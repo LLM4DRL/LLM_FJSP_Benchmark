@@ -1,0 +1,286 @@
+
+### Tasks:  
+- **Part 1 (Engine Block):**  
+  - **Operation 1:** Can be processed on CNC Lathe 1 (12 minutes) or CNC Lathe 2 (8 minutes).  
+  - **Operation 2:** Can be processed on Milling Machine 1 (7 minutes) or Milling Machine 2 (9 minutes).  
+  - **Operation 3:** Can be processed on Drilling Machine 1 (5 minutes) or Drilling Machine 2 (7 minutes).  
+  - **Operation 4:** Can be processed on Laser Cutting Machine 1 (15 minutes) or Laser Cutting Machine 2 (10 minutes).  
+  - **Operation 5:** Can be processed on Press Machine 1 (10 minutes) or Press Machine 2 (12 minutes).  
+  - **Operation 6:** Can be processed on CNC Lathe 1 (10 minutes) or CNC Lathe 2 (6 minutes).  
+  - **Operation 7:** Can be processed on Milling Machine 1 (8 minutes) or Milling Machine 2 (7 minutes).  
+  - **Operation 8:** Can be processed on Drilling Machine 1 (9 minutes) or Drilling Machine 2 (11 minutes).  
+  - **Operation 9:** Can be processed on Laser Cutting Machine 1 (13 minutes) or Laser Cutting Machine 2 (14 minutes).  
+  - **Operation 10:** Can be processed on Press Machine 1 (6 minutes) or Press Machine 2 (8 minutes).  
+
+- **Part 2 (Transmission Gear):**  
+  - **Operation 1:** Can be processed on CNC Lathe 1 (10 minutes) or CNC Lathe 2 (7 minutes).  
+  - **Operation 2:** Can be processed on Milling Machine 1 (6 minutes) or Milling Machine 2 (8 minutes).  
+  - **Operation 3:** Can be processed on Drilling Machine 1 (4 minutes) or Drilling Machine 2 (6 minutes).  
+  - **Operation 4:** Can be processed on Laser Cutting Machine 1 (14 minutes) or Laser Cutting Machine 2 (12 minutes).  
+  - **Operation 5:** Can be processed on Press Machine 1 (9 minutes) or Press Machine 2 (11 minutes).  
+  - **Operation 6:** Can be processed on CNC Lathe 1 (8 minutes) or CNC Lathe 2 (5 minutes).  
+  - **Operation 7:** Can be processed on Milling Machine 1 (7 minutes) or Milling Machine 2 (6 minutes).  
+  - **Operation 8:** Can be processed on Drilling Machine 1 (8 minutes) or Drilling Machine 2 (10 minutes).  
+  - **Operation 9:** Can be processed on Laser Cutting Machine 1 (12 minutes) or Laser Cutting Machine 2 (13 minutes).  
+  - **Operation 10:** Can be processed on Press Machine 1 (5 minutes) or Press Machine 2 (7 minutes).  
+
+- **Part 3 (Wheel Hub):**  
+  - **Operation 1:** Can be processed on CNC Lathe 1 (11 minutes) or CNC Lathe 2 (9 minutes).  
+  - **Operation 2:** Can be processed on Milling Machine 1 (8 minutes) or Milling Machine 2 (7 minutes).  
+  - **Operation 3:** Can be processed on Drilling Machine 1 (5 minutes) or Drilling Machine 2 (6 minutes).  
+  - **Operation 4:** Can be processed on Laser Cutting Machine 1 (13 minutes) or Laser Cutting Machine 2 (11 minutes).  
+  - **Operation 5:** Can be processed on Press Machine 1 (10 minutes) or Press Machine 2 (12 minutes).  
+  - **Operation 6:** Can be processed on CNC Lathe 1 (9 minutes) or CNC Lathe 2 (7 minutes).  
+  - **Operation 7:** Can be processed on Milling Machine 1 (9 minutes) or Milling Machine 2 (8 minutes).  
+  - **Operation 8:** Can be processed on Drilling Machine 1 (7 minutes) or Drilling Machine 2 (9 minutes).  
+  - **Operation 9:** Can be processed on Laser Cutting Machine 1 (14 minutes) or Laser Cutting Machine 2 (15 minutes).  
+  - **Operation 10:** Can be processed on Press Machine 1 (6 minutes) or Press Machine 2 (8 minutes).  
+
+- **Part 4 (Brake Disc):**  
+  - **Operation 1:** Can be processed on CNC Lathe 1 (12 minutes) or CNC Lathe 2 (8 minutes).  
+  - **Operation 2:** Can be processed on Milling Machine 1 (7 minutes) or Milling Machine 2 (9 minutes).  
+  - **Operation 3:** Can be processed on Drilling Machine 1 (5 minutes) or Drilling Machine 2 (7 minutes).  
+  - **Operation 4:** Can be processed on Laser Cutting Machine 1 (15 minutes) or Laser Cutting Machine 2 (10 minutes).  
+  - **Operation 5:** Can be processed on Press Machine 1 (10 minutes) or Press Machine 2 (12 minutes).  
+  - **Operation 6:** Can be processed on CNC Lathe 1 (10 minutes) or CNC Lathe 2 (6 minutes).  
+  - **Operation 7:** Can be processed on Milling Machine 1 (8 minutes) or Milling Machine 2 (7 minutes).  
+  - **Operation 8:** Can be processed on Drilling Machine 1 (9 minutes) or Drilling Machine 2 (11 minutes).  
+  - **Operation 9:** Can be processed on Laser Cutting Machine 1 (13 minutes) or Laser Cutting Machine 2 (14 minutes).  
+  - **Operation 10:** Can be processed on Press Machine 1 (6 minutes) or Press Machine 2 (8 minutes).  
+
+- **Part 5 (Steering Knuckle):**  
+  - **Operation 1:** Can be processed on CNC Lathe 1 (10 minutes) or CNC Lathe 2 (7 minutes).  
+  - **Operation 2:** Can be processed on Milling Machine 1 (6 minutes) or Milling Machine 2 (8 minutes).  
+  - **Operation 3:** Can be processed on Drilling Machine 1 (4 minutes) or Drilling Machine 2 (6 minutes).  
+  - **Operation 4:** Can be processed on Laser Cutting Machine 1 (14 minutes) or Laser Cutting Machine 2 (12 minutes).  
+  - **Operation 5:** Can be processed on Press Machine 1 (9 minutes) or Press Machine 2 (11 minutes).  
+  - **Operation 6:** Can be processed on CNC Lathe 1 (8 minutes) or CNC Lathe 2 (5 minutes).  
+  - **Operation 7:** Can be processed on Milling Machine 1 (7 minutes) or Milling Machine 2 (6 minutes).  
+  - **Operation 8:** Can be processed on Drilling Machine 1 (8 minutes) or Drilling Machine 2 (10 minutes).  
+  - **Operation 9:** Can be processed on Laser Cutting Machine 1 (12 minutes) or Laser Cutting Machine 2 (13 minutes).  
+  - **Operation 10:** Can be processed on Press Machine 1 (5 minutes) or Press Machine 2 (7 minutes).  
+
+- **Part 6 (Engine Block):**  
+  - Same as Part 1 (Engine Block).  
+
+- **Part 7 (Transmission Gear):**  
+  - Same as Part 2 (Transmission Gear).  
+
+- **Part 8 (Wheel Hub):**  
+  - Same as Part 3 (Wheel Hub).  
+
+- **Part 9 (Brake Disc):**  
+  - Same as Part 4 (Brake Disc).  
+
+- **Part 10 (Steering Knuckle):**  
+  - Same as Part 5 (Steering Knuckle).  
+
+### Resources:  
+- **Machines:**  
+  1. CNC Lathe 1  
+  2. CNC Lathe 2  
+  3. Milling Machine 1  
+  4. Milling Machine 2  
+  5. Drilling Machine 1  
+  6. Drilling Machine 2  
+  7. Laser Cutting Machine 1  
+  8. Laser Cutting Machine 2  
+  9. Press Machine 1  
+  10. Press Machine 2  
+
+### Constraints:  
+1. Each operation can only be processed on one machine.  
+2. A machine cannot process multiple operations simultaneously.  
+3. The operations of each part must be completed in a predefined sequence (Operation 1 → Operation 2 → ... → Operation 10).  
+4. If an operation cannot be processed on a machine, the processing time for that machine is considered infinite (unavailable).  
+
+### Objective Function:  
+- Minimize the makespan (total time taken to finish all parts).  
+
+### JSON Output:  
+```json
+{
+  "i": [
+    {
+      "id": 1,
+      "r": [
+        {"id": 1, "n": "CNC Lathe 1", "w": null, "s": null},
+        {"id": 2, "n": "CNC Lathe 2", "w": null, "s": null},
+        {"id": 3, "n": "Milling Machine 1", "w": null, "s": null},
+        {"id": 4, "n": "Milling Machine 2", "w": null, "s": null},
+        {"id": 5, "n": "Drilling Machine 1", "w": null, "s": null},
+        {"id": 6, "n": "Drilling Machine 2", "w": null, "s": null},
+        {"id": 7, "n": "Laser Cutting Machine 1", "w": null, "s": null},
+        {"id": 8, "n": "Laser Cutting Machine 2", "w": null, "s": null},
+        {"id": 9, "n": "Press Machine 1", "w": null, "s": null},
+        {"id": 10, "n": "Press Machine 2", "w": null, "s": null}
+      ],
+      "job": [
+        {
+          "id": 1,
+          "n": "Engine Block",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "1,Operation 2,[],3:7|4:9",
+            "1,Operation 3,[],5:5|6:7",
+            "1,Operation 4,[],7:15|8:10",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:10|2:6",
+            "1,Operation 7,[],3:8|4:7",
+            "1,Operation 8,[],5:9|6:11",
+            "1,Operation 9,[],7:13|8:14",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 2,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "1,Operation 2,[],3:6|4:8",
+            "1,Operation 3,[],5:4|6:6",
+            "1,Operation 4,[],7:14|8:12",
+            "1,Operation 5,[],9:9|10:11",
+            "1,Operation 6,[],1:8|2:5",
+            "1,Operation 7,[],3:7|4:6",
+            "1,Operation 8,[],5:8|6:10",
+            "1,Operation 9,[],7:12|8:13",
+            "1,Operation 10,[],9:5|10:7"
+          ]
+        },
+        {
+          "id": 3,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Operation 1,[],1:11|2:9",
+            "1,Operation 2,[],3:8|4:7",
+            "1,Operation 3,[],5:5|6:6",
+            "1,Operation 4,[],7:13|8:11",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:9|2:7",
+            "1,Operation 7,[],3:9|4:8",
+            "1,Operation 8,[],5:7|6:9",
+            "1,Operation 9,[],7:14|8:15",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 4,
+          "n": "Brake Disc",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "1,Operation 2,[],3:7|4:9",
+            "1,Operation 3,[],5:5|6:7",
+            "1,Operation 4,[],7:15|8:10",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:10|2:6",
+            "1,Operation 7,[],3:8|4:7",
+            "1,Operation 8,[],5:9|6:11",
+            "1,Operation 9,[],7:13|8:14",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 5,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "1,Operation 2,[],3:6|4:8",
+            "1,Operation 3,[],5:4|6:6",
+            "1,Operation 4,[],7:14|8:12",
+            "1,Operation 5,[],9:9|10:11",
+            "1,Operation 6,[],1:8|2:5",
+            "1,Operation 7,[],3:7|4:6",
+            "1,Operation 8,[],5:8|6:10",
+            "1,Operation 9,[],7:12|8:13",
+            "1,Operation 10,[],9:5|10:7"
+          ]
+        },
+        {
+          "id": 6,
+          "n": "Engine Block",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "1,Operation 2,[],3:7|4:9",
+            "1,Operation 3,[],5:5|6:7",
+            "1,Operation 4,[],7:15|8:10",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:10|2:6",
+            "1,Operation 7,[],3:8|4:7",
+            "1,Operation 8,[],5:9|6:11",
+            "1,Operation 9,[],7:13|8:14",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 7,
+          "n": "Transmission Gear",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "1,Operation 2,[],3:6|4:8",
+            "1,Operation 3,[],5:4|6:6",
+            "1,Operation 4,[],7:14|8:12",
+            "1,Operation 5,[],9:9|10:11",
+            "1,Operation 6,[],1:8|2:5",
+            "1,Operation 7,[],3:7|4:6",
+            "1,Operation 8,[],5:8|6:10",
+            "1,Operation 9,[],7:12|8:13",
+            "1,Operation 10,[],9:5|10:7"
+          ]
+        },
+        {
+          "id": 8,
+          "n": "Wheel Hub",
+          "o": [
+            "1,Operation 1,[],1:11|2:9",
+            "1,Operation 2,[],3:8|4:7",
+            "1,Operation 3,[],5:5|6:6",
+            "1,Operation 4,[],7:13|8:11",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:9|2:7",
+            "1,Operation 7,[],3:9|4:8",
+            "1,Operation 8,[],5:7|6:9",
+            "1,Operation 9,[],7:14|8:15",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 9,
+          "n": "Brake Disc",
+          "o": [
+            "1,Operation 1,[],1:12|2:8",
+            "1,Operation 2,[],3:7|4:9",
+            "1,Operation 3,[],5:5|6:7",
+            "1,Operation 4,[],7:15|8:10",
+            "1,Operation 5,[],9:10|10:12",
+            "1,Operation 6,[],1:10|2:6",
+            "1,Operation 7,[],3:8|4:7",
+            "1,Operation 8,[],5:9|6:11",
+            "1,Operation 9,[],7:13|8:14",
+            "1,Operation 10,[],9:6|10:8"
+          ]
+        },
+        {
+          "id": 10,
+          "n": "Steering Knuckle",
+          "o": [
+            "1,Operation 1,[],1:10|2:7",
+            "1,Operation 2,[],3:6|4:8",
+            "1,Operation 3,[],5:4|6:6",
+            "1,Operation 4,[],7:14|8:12",
+            "1,Operation 5,[],9:9|10:11",
+            "1,Operation 6,[],1:8|2:5",
+            "1,Operation 7,[],3:7|4:6",
+            "1,Operation 8,[],5:8|6:10",
+            "1,Operation 9,[],7:12|8:13",
+            "1,Operation 10,[],9:5|10:7"
+          ]
+        }
+      ],
+      "o": "minimize_makespan",
+      "t": "minute",
+      "c": []
+    }
+  ]
+}
+```
