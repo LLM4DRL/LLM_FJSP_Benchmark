@@ -17,9 +17,9 @@ def load_prompts(system_path, user_path, user_input):
         system_template = f.read()
     with open(user_path, 'r') as f:
         user_template = f.read()
-    system_prompt = system_template.replace('{system_message}', '')
-    user_prompt = user_template.replace('{user_input}', user_input)
-    return system_prompt, user_prompt
+    # system_prompt = system_template.replace('{system_message}', '')
+    # user_prompt = user_template.replace('{user_input}', user_input)
+    return system_template, user_template
 
 def call_api(provider_info, model_id, system_prompt, user_prompt, generation_params):
     base_url = provider_info['base_url']
