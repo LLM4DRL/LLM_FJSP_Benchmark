@@ -1,0 +1,13 @@
+{
+  "model_id": "Qwen/Qwen3-14B",
+  "local_path": "~/models/Qwen3-14B",
+  "deployment_type": "vllm",
+  "num_gpus": 2,
+  "dtype": "auto",
+  "max_model_len": null,
+  "generation_params": {
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.9
+  }
+} 
