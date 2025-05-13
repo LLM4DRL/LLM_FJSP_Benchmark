@@ -99,10 +99,7 @@ def test_model(config_path, system_prompt, user_prompt):
     save_output_and_metrics(output, metrics, config['deployment_type'], model_id)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Test online LLM APIs')
-    parser.add_argument('--prompt', type=str, required=True, help='User input prompt')
-    args = parser.parse_args()
-    system_prompt, user_prompt = load_prompts('prompts/system_prompt_template.txt', 'prompts/user_prompt_template.txt', args.prompt)
+    system_prompt, user_prompt = load_prompts('prompts/system_prompt_template.txt', 'prompts/user_prompt_template.txt')
     # Gather all online model configs
     online_cfgs = glob.glob('configs/model_specific/online_vendor/*.json')
     online_cfgs += glob.glob('configs/model_specific/siliconflow/*.json')
