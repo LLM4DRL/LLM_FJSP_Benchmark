@@ -3,8 +3,8 @@ import os
 import time
 import json
 import glob
-import requests
 import argparse
+from openai import OpenAI
 from dotenv import load_dotenv
 from utils.metrics_calculator import calculate_tokens_per_sec
 from utils.results_saver import save_output_and_metrics
@@ -24,47 +24,60 @@ def load_prompts(system_path, user_path, user_input):
 def call_api(provider_info, model_id, system_prompt, user_prompt, generation_params):
     base_url = provider_info['base_url']
     api_key = os.getenv(provider_info['api_key_env_var'])
-    headers = {'Authorization': f"Bearer {api_key}", 'Content-Type': 'application/json'}
+    
+    # Initialize the OpenAI client with the base URL and API key
+    client = OpenAI(
+        base_url=base_url,
+        api_key=api_key
+    )
+    
+    # Extract thinking parameter if it exists
+    thinking = generation_params.pop('thinking', False)
     
     # Determine if using chat completion or regular completion
-    if 'gpt' in model_id.lower():
-        endpoint = f"{base_url}/chat/completions"
-        payload = {
-            'model': model_id,
-            'messages': [
+    if 'gpt' in model_id.lower() or 'claude' in model_id.lower():
+        start = time.time()
+        try:
+            print(f"Calling ChatCompletion for model {model_id}")
+            messages = [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
-            ],
-            **generation_params
-        }
-    else:
-        endpoint = f"{base_url}/completions"
-        payload = {
-            'model': model_id,
-            'prompt': f"{system_prompt}\n{user_prompt}",
-            **generation_params
-        }
-    
-    start = time.time()
-    try:
-        print(f"Calling {endpoint} for model {model_id}")
-        resp = requests.post(endpoint, headers=headers, json=payload)
-        resp.raise_for_status()
-        data = resp.json()
-        elapsed = time.time() - start
-        
-        # Parse response based on endpoint type
-        if 'gpt' in model_id.lower():
-            output = data.get('choices', [{}])[0].get('message', {}).get('content', '')
-        else:
-            output = data.get('choices', [{}])[0].get('text', '')
+            ]
             
-        return output, elapsed
-    except Exception as e:
-        print(f"Error calling API: {str(e)}")
-        if resp:
-            print(f"Response: {resp.text}")
-        return f"Error: {str(e)}", time.time() - start
+            response = client.chat.completions.create(
+                model=model_id,
+                messages=messages,
+                **generation_params,
+                extra_body={"thinking": thinking} if thinking is not None else {}
+            )
+            
+            elapsed = time.time() - start
+            output = response.choices[0].message.content
+            
+            return output, elapsed
+        except Exception as e:
+            print(f"Error calling API: {str(e)}")
+            return f"Error: {str(e)}", time.time() - start
+    else:
+        start = time.time()
+        try:
+            print(f"Calling Completion for model {model_id}")
+            prompt = f"{system_prompt}\n{user_prompt}"
+            
+            response = client.completions.create(
+                model=model_id,
+                prompt=prompt,
+                **generation_params,
+                extra_body={"thinking": thinking} if thinking is not None else {}
+            )
+            
+            elapsed = time.time() - start
+            output = response.choices[0].text
+            
+            return output, elapsed
+        except Exception as e:
+            print(f"Error calling API: {str(e)}")
+            return f"Error: {str(e)}", time.time() - start
 
 def test_model(config_path, system_prompt, user_prompt):
     config = json.load(open(config_path))

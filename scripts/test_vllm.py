@@ -54,6 +54,9 @@ def test_vllm_model(config_path, prompt, repeats=1):
         num_gpus = config.get('num_gpus', 1)
         generation_params = config.get('generation_params', {})
         
+        # Extract the thinking parameter if it exists
+        thinking = generation_params.pop('thinking', False)
+        
         # Initialize vLLM client with fallback to local path
         model_load_start = time.time()
         try:
@@ -96,7 +99,12 @@ def test_vllm_model(config_path, prompt, repeats=1):
             # Generate output with timestamps for token-by-token timing
             start_time = time.time()
             sampling_params = SamplingParams(**generation_params)
-            outputs = client.generate(prompt, sampling_params=sampling_params, use_tqdm=True)
+            outputs = client.generate(
+                prompt, 
+                sampling_params=sampling_params, 
+                use_tqdm=True,
+                extra_generation_kwargs={"thinking": thinking} if thinking is not None else {}
+            )
             
             # Collect generated text
             result_text = ''
